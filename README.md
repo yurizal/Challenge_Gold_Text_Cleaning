@@ -1,6 +1,6 @@
 # Challenge Gold - Text Cleaning
 
-Merupakan project untuk level Gold, dimana melakukan Text Cleaning pada file csv yang telah ditentukan dan berisi cuitan tweet.
+Merupakan project untuk level Gold, dimana melakukan Text Cleaning pada file csv yang telah ditentukan yang berisi cuitan tweet menggunakan Flask Framework.
 
 ## Description App
 - Terdapat upload button dan file data.csv berada di folder uploads
@@ -84,7 +84,7 @@ proses_data.py
 
 ![git_05](https://user-images.githubusercontent.com/16360023/219391318-026943cb-1d0c-4542-a235-dab82a4964d1.png)
 
-- _Words CLoud_
+- _Words Cloud_
 
 ![03_words_cloud](https://user-images.githubusercontent.com/16360023/219391662-a84c3bae-3635-4a8b-80f1-e3ec53952325.png)
 
