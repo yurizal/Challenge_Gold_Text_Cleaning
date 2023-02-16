@@ -1,0 +1,40 @@
+{% extends 'main_layout.html' %}
+{%block content %}
+
+        <div class="jumbotron">
+               <label for="formFileLg" class="form-label">Upload File</label>
+
+              <form method="POST" action="{{ url_for('upload_file') }}" enctype="multipart/form-data">
+                <div class="input-group mb-3">
+                    <button class="btn btn-outline-secondary" id="file" type = "submit">Submit</button>
+                    <input type="file" class="form-control" id="inputGroupFile03" name="file" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                </div>
+              </form> 
+             
+        </div>
+
+        <div class="row marketing my-5">
+
+            <div class="col-lg-6">
+                <h2 class="mb-3">Proses</h2>
+                <h4>1. Cleaning</h4>
+
+                <p>Proses menghapus atau memodifikasi karakter-karakter yang tidak diinginkan dari sebuah teks atau dokumen</p>
+                <p>Menghapus punctuation, cek kata-kata abuse, update kata alay</p>
+
+                <h4>2. Tokenizing</h4>
+
+                <p>Proses memisahkan teks menjadi potongan-potongan berupa token, bisa berupa potongan huruf, kata, atau kalimat</p>
+
+                <h4>3. Stop Words Removal</h4>
+
+                <p>Suatu proses pembersihan data teks yang bertujuan untuk menghilangkan kata-kata yang tidak memiliki makna atau kata-kata yang sering muncul dalam sebuah teks</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; Yurizal Hamdani</p>
+        </footer>
+
+    </div>
+{% endblock %}

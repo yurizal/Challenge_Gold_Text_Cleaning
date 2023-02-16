@@ -1,0 +1,5 @@
+{% extends 'main_layout.html' %} {% block content %}
+<h4>Original</h4>
+{{ request.form['text'] }}
+<h4>Clean</h4>
+{{ clean }} {% endblock content %}

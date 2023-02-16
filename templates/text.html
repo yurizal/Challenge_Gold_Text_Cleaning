@@ -1,0 +1,27 @@
+{% extends 'main_layout.html' %} {%block content %}
+<!-- <form method="POST" action="{{ url_for('text_file') }}">
+  <div class="form-group my-4">
+    <input
+      class="form-control form-control-lg"
+      type="text"
+      placeholder="Enter Text"
+      name="file"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary" id="file">Submit</button>
+</form> -->
+<form method="POST" action="{{ url_for('text_file') }}">
+  <div class="form-group my-4">
+    <input
+      type="text"
+      class="form-control form-control-lg my-4"
+      id="text"
+      name="text"
+      aria-describedby="inputGroupFileAddon03"
+      aria-label="Upload"
+      placeholder="Enter Text"
+    />
+    <button class="btn btn-primary" id="text" type="submit">Submit</button>
+  </div>
+</form>
+{%endblock%}

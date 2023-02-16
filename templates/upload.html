@@ -1,0 +1,17 @@
+{% extends 'main_layout.html' %} {% block content %}
+<div class="container">
+  <h3>Data RAW</h3>
+  {{ table_html|safe }}
+  <h3>Text Cleaning</h3>
+  {{ clean|safe }}
+  <h3>Tokenizing</h3>
+  {{ tokens|safe}}
+  <h3>Stopwords Removal</h3>
+  {{ removal|safe }}
+  <h3>Words Cloud</h3>
+  <div class="row text-center">
+    <div class="col mx-auto text-center">{{ wcl1|safe }}</div>
+    <div class="col mx-auto text-center">{{ wcl2|safe }}</div>
+  </div>
+</div>
+{% endblock content %}
