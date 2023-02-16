@@ -8,7 +8,7 @@ Merupakan project untuk membuat Web App Text Cleaning pada file csv yang berisi 
 - Generate Word Cloud pada kata abusive dan tweet
  
 ## Function Code
-```proses_data.py```
+```process_data.py```
  | Function | Deskripsi |
  | -------- | --------- |
  | ```def __init__``` | Melakukan read csv pada file abuse.csv dan kamusalay.csv   |
